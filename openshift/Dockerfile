@@ -1,4 +1,4 @@
-FROM docker.io/fabric8/s2i-java:1.3.6
+FROM registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift:latest
 
 ENV APM_VERSION=0.13.0.Final
 ENV APM_AGENT=/libs/hawkular-apm-agent.jar
